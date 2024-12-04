@@ -41,7 +41,7 @@ get_icon() {
     echo $icon
 }
 
-KEY="db23c74a1ae36f1024db2270b75c4fe7"
+#KEY="wtf wtf wtf wtf" -- get this from openweathermap.org
 CITY="Dolgoprudny"
 UNITS="metric"
 SYMBOL="°"
