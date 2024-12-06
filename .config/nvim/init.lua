@@ -76,9 +76,15 @@ require("lazy").setup({
 				dependencies = "nvim-tree/nvim-web-devicons",
 				after = "catppuccin",
 			},
-
-			{ "m4xshen/autoclose.nvim" },
+			{
+				"windwp/nvim-autopairs",
+				event = "InsertEnter",
+				config = true,
+				-- use opts = {} for passing setup options
+				-- this is equivalent to setup({}) function
+			},
 			{ "neovim/nvim-lspconfig" },
+			{"nvim-tree/nvim-tree.lua"},
 		},
 	},
 	-- Configure any other settings here. See the documentation for more details.
