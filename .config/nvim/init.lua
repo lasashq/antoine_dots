@@ -99,7 +99,7 @@ require("lazy").setup({
 })
 --vim.opt.termguicolors = true
 
-require("autoclose").setup()
+require("nvim-autopairs").setup()
 require("catppuccin").setup({
 	flavour = "mocha", -- latte, frappe, macchiato, mocha
 	background = { -- :h background
